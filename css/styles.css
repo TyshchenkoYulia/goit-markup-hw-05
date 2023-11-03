@@ -826,7 +826,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     margin-bottom: 16px;
 }
 
-.backdrop-form-checkbox-visually {
+.backdrop-form-checkbox {
     margin-bottom: 24px;
 }
 
@@ -851,14 +851,14 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 
 
 
-.backdrop-form-checkbox-wrapper:checked + 
+.backdrop-form-checkbox-input:checked + 
 .backdrop-form-checkbox-label .backdop-form-checkbox-span {
     background-color: #404BBF;
     fill: #F4F4FD;
     border: none;
 }
 
-.backdrop-form-checkbox-wrapper:focus + 
+.backdrop-form-checkbox-input:focus + 
 .backdrop-form-checkbox-label .backdop-form-checkbox-span {
     outline: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
 }
