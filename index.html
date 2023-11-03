@@ -449,19 +449,19 @@
 <div class="backdrop is-open">
     <div class="modal">
         <button class="modal-close-button" type="button" aria-label="modal close button">
-            <svg class="backdrop-close-button" width="24" height="24">
+            <svg class="backdrop-close-button" width="8" height="8">
                 <use href="./images/icons.svg#icon-close"></use>
             </svg>
         </button>    
     
 
-    <p class="backdop-text">Leave your contacts and we will call you back</p>
+    <p class="backdrop-text">Leave your contacts and we will call you back</p>
 
-    <form  class="backdop-form">
-        <div class="backdop-form-field">
-            <label class="backdop-form-label" for="name">Name</label>
-            <div class="backdop-form-svg">
-                <input class="backdop-form-input" 
+    <form  class="backdrop-form">
+        <div class="backdrop-form-field">
+            <label class="backdrop-form-label" for="name">Name</label>
+            <div class="backdrop-form-svg">
+                <input class="backdrop-form-input" 
                     type="text"
                     id="name"
                     name="user_name"
@@ -474,10 +474,10 @@
             </div>
         </div>
 
-        <div class="backdop-form-field">
-            <label class="backdop-form-label" for="phone-number">Phone</label>
-            <div class="backdop-form-svg">
-                <input class="backdop-form-input" 
+        <div class="backdrop-form-field">
+            <label class="backdrop-form-label" for="phone-number">Phone</label>
+            <div class="backdrop-form-svg">
+                <input class="backdrop-form-input" 
                     type="tel"
                     id="phone-number"
                     name="user_phone_number"
@@ -491,10 +491,10 @@
             </div>
         </div>
 
-        <div class="backdop-form-field">
-            <label class="backdop-form-label" for="email">Email</label>
-            <div class="backdop-form-svg">
-                <input class="backdop-form-input" 
+        <div class="backdrop-form-field">
+            <label class="backdrop-form-label" for="email">Email</label>
+            <div class="backdrop-form-svg">
+                <input class="backdrop-form-input" 
                     type="email"
                     id="email"
                     name="use_email"
@@ -506,30 +506,35 @@
             </div>
         </div>
         
-        <div class="backdop-form-field">
-            <label class="backdop-form-label" for="comment">Comment</label>
-            <textarea class="backdop-form-textarea"
+        <div class="backdrop-form-field-textarea">
+            <label class="backdrop-form-label" for="comment">Comment</label>
+            <textarea class="backdrop-form-textarea"
                 name="user_comment" 
                 id="comment"
                 placeholder="Text input"
             ></textarea>
         </div>
 
-        <div class="backdop-form-checkbox-wrapper">
-            <input class="backdop-form-checkbox"
+        <div class="backdrop-form-checkbox-wrapper">
+            <input class="backdrop-form-checkbox-wrapper visually-hidden"
                 name="user_policy"    
                 type="checkbox"
                 value="true"
                 id="user-policy"
                 required
                 >
-            <label class="backdop-form-checkbox-label" for="user-policy">
+            <label class="backdrop-form-checkbox-label" for="user-policy">
+                <span class="backdrop-form-checkbox-span">
+                    <svg class="backdrop-form-checkbox-span-icon" width="8" height="10">
+                        <use href="./images/icons.svg#icon-check"></use>
+                    </svg>
+                </span>
                 I accept the terms and conditions of the
                 <a class="privacy-policy" href="">Privacy Policy</a>
             </label>
         </div>
 
-        <button class="backdop-form-button" type="submit">Send</button>
+        <button class="backdrop-form-button" type="submit">Send</button>
 
     </form>
     </div>
